@@ -1,0 +1,8 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const ramos = document.querySelectorAll('button.ramo');
+  ramos.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('aprobado');
+    });
+  });
+});
