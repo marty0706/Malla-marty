@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malla Curricular Interactiva</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <h1>Malla Curricular Interactiva</h1>
+  <div class="malla">
+    <!-- Niveles -->
+    <!-- Nivel 1 -->
+    <div class="nivel" id="nivel1">
+      <h2>Nivel 1</h2>
+      <ul>
+        <li><button class="ramo">Educación y desarrollo profesional docente</button></li>
+        <li><button class="ramo">Formación ciudadana</button></li>
+        <li><button class="ramo">Geometría plana 1</button></li>
+        <li><button class="ramo">Trigonometría y geometría analítica</button></li>
+        <li><button class="ramo">Aritmética</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 2 -->
+    <div class="nivel" id="nivel2">
+      <h2>Nivel 2</h2>
+      <ul>
+        <li><button class="ramo">Psicología Evolutiva del adolescentes</button></li>
+        <li><button class="ramo">Informativa educativa 1</button></li>
+        <li><button class="ramo">Precálculo</button></li>
+        <li><button class="ramo">Álgebra</button></li>
+        <li><button class="ramo">Geometría plana 2</button></li>
+        <li><button class="ramo">Electivo de formación general 1</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 3 -->
+    <div class="nivel" id="nivel3">
+      <h2>Nivel 3</h2>
+      <ul>
+        <li><button class="ramo">Fundamentos del aprendizaje</button></li>
+        <li><button class="ramo">Inclusión y diversidad</button></li>
+        <li><button class="ramo">Calculo 1</button></li>
+        <li><button class="ramo">Teoría de números</button></li>
+        <li><button class="ramo">Geometría del espacio</button></li>
+        <li><button class="ramo">Electivo de formación general 2</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 4 -->
+    <div class="nivel" id="nivel4">
+      <h2>Nivel 4</h2>
+      <ul>
+        <li><button class="ramo">Teorías de la educación</button></li>
+        <li><button class="ramo">Práctica inicial 1</button></li>
+        <li><button class="ramo">Álgebra lineal</button></li>
+        <li><button class="ramo">Calculo 2</button></li>
+        <li><button class="ramo">Análisis exploratorio de datos</button></li>
+        <li><button class="ramo">Electivo de formación general 3</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 5 -->
+    <div class="nivel" id="nivel5">
+      <h2>Nivel 5</h2>
+      <ul>
+        <li><button class="ramo">Diseño del currículum</button></li>
+        <li><button class="ramo">Gestión educativa y comunidad escolar</button></li>
+        <li><button class="ramo">Didáctica de la matemática 1</button></li>
+        <li><button class="ramo">Conjuntos numéricos</button></li>
+        <li><button class="ramo">Informática educativa 2</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 6 -->
+    <div class="nivel" id="nivel6">
+      <h2>Nivel 6</h2>
+      <ul>
+        <li><button class="ramo">Evaluación para el aprendizaje</button></li>
+        <li><button class="ramo">Práctica inicial 2</button></li>
+        <li><button class="ramo">Didáctica de la matemática 2</button></li>
+        <li><button class="ramo">Estructuras algebraicas 1</button></li>
+        <li><button class="ramo">Calculo 3</button></li>
+        <li><button class="ramo">Probabilidades</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 7 -->
+    <div class="nivel" id="nivel7">
+      <h2>Nivel 7</h2>
+      <ul>
+        <li><button class="ramo">Metodología de la investigación</button></li>
+        <li><button class="ramo">Práctica Intermedia 1</button></li>
+        <li><button class="ramo">Didáctica de la matemática 3</button></li>
+        <li><button class="ramo">Estructuras algebraicas 2</button></li>
+        <li><button class="ramo">Programación</button></li>
+        <li><button class="ramo">Inferencia estadística</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 8 -->
+    <div class="nivel" id="nivel8">
+      <h2>Nivel 8</h2>
+      <ul>
+        <li><button class="ramo">Seminario de grado</button></li>
+        <li><button class="ramo">Práctica Intermedia 2</button></li>
+        <li><button class="ramo">Historia de la matemática</button></li>
+        <li><button class="ramo">Ecuaciones diferenciales</button></li>
+        <li><button class="ramo">Electivo de la especialidad</button></li>
+        <li><button class="ramo">Electivo de formación general 4</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 9 -->
+    <div class="nivel" id="nivel9">
+      <h2>Nivel 9</h2>
+      <ul>
+        <li><button class="ramo">Práctica profesional 1</button></li>
+      </ul>
+    </div>
+
+    <!-- Nivel 10 -->
+    <div class="nivel" id="nivel10">
+      <h2>Nivel 10</h2>
+      <ul>
+        <li><button class="ramo">Práctica profesional 2</button></li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
